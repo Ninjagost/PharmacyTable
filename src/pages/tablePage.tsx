@@ -1,8 +1,11 @@
+import { Box } from '@mui/material';
+import OrdersTable from '../components/Table';
+
 const TablePage = () => {
   return (
-    <div>
-      <div className="">123123312</div>
-    </div>
+    <Box>
+      <OrdersTable />
+    </Box>
   );
 };
 

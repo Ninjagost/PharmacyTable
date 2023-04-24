@@ -1,39 +1,100 @@
-{
-  "address": {
-    "title": "string",
-    "y": "string",
-    "x": "string"
+[
+  {
+    "address": {
+      "title": "New York",
+      "y": "string",
+      "x": "string"
+    },
+    "order_items": [
+      {
+        "code": "string",
+        "type": "REF"
+      },
+      {
+        "code": "string",
+        "type": "REF"
+      },
+      {
+        "code": "string",
+        "type": "REF"
+      }
+    ],
+    "client": {
+      "address": {
+        "title": "string",
+        "y": "12",
+        "x": "23"
+      },
+      "full_name": "string",
+      "phone_number": "string",
+      "home_number": "string",
+      "email": "user@example.com",
+      "pharmacy": 0,
+      "id": 1
+    },
+    "order_type": "ON",
+    "weight_type": "S",
+    "copay": 0,
+    "proof_type": "OS",
+    "comment": "string",
+    "request_call_on_arrival": true,
+    "deliver_time": "string",
+    "verification_code": "string",
+    "start_time_interval": "2023-04-24T14:58:00.955Z",
+    "end_time_interval": "2023-04-24T14:58:00.955Z",
+    "pharmacy": 0,
+    "creator": 0,
+    "driver": 0,
+    "dispatcher": 0,
+    "id": 1
   },
-  "order_items": [
-    {
-      "code": "string",
-      "type": "REF"
-    }
-  ],
-  "client": {
+  {
     "address": {
       "title": "string",
       "y": "string",
       "x": "string"
     },
-    "full_name": "string",
-    "phone_number": "string",
-    "home_number": "string",
-    "email": "user@example.com",
-    "pharmacy": 0
-  },
-  "order_type": "ON",
-  "weight_type": "S",
-  "copay": 0,
-  "proof_type": "OS",
-  "comment": "string",
-  "request_call_on_arrival": true,
-  "deliver_time": "string",
-  "verification_code": "string",
-  "start_time_interval": "2023-04-24T14:58:00.955Z",
-  "end_time_interval": "2023-04-24T14:58:00.955Z",
-  "pharmacy": 0,
-  "creator": 0,
-  "driver": 0,
-  "dispatcher": 0
-}
+    "order_items": [
+      {
+        "code": "string",
+        "type": "REF"
+      },
+      {
+        "code": "string",
+        "type": "REF"
+      },
+      {
+        "code": "string",
+        "type": "REF"
+      }
+    ],
+    "client": {
+      "address": {
+        "title": "string",
+        "y": "string",
+        "x": "string"
+      },
+      "full_name": "string",
+      "phone_number": "string",
+      "home_number": "string",
+      "email": "user@example.com",
+      "pharmacy": 0,
+      "id": 2
+    },
+    "order_type": "ON",
+    "weight_type": "S",
+    "copay": 0,
+    "proof_type": "OS",
+    "comment": "string",
+    "request_call_on_arrival": true,
+    "deliver_time": "string",
+    "verification_code": "string",
+    "start_time_interval": "2023-04-24T14:58:00.955Z",
+    "end_time_interval": "2023-04-24T14:58:00.955Z",
+    "pharmacy": 0,
+    "creator": 0,
+    "driver": 0,
+    "dispatcher": 0,
+    "id": 2
+  }
+]

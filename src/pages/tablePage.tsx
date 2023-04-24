@@ -1,5 +1,9 @@
-const tablePage = () => {
-  return <div></div>;
+const TablePage = () => {
+  return (
+    <div>
+      <div className="">123123312</div>
+    </div>
+  );
 };
 
-export default tablePage;
+export default TablePage;

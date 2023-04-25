@@ -23,7 +23,9 @@ const orderSlice = createSlice({
       })
       .addCase(fetchAllOrders.fulfilled, (state, action) => {
         state.status = 'success';
-        state.data = action.payload.data;
+        state.data = action.payload;
+        //should be like this but there is no data
+        // state.data = action.payload.data;
       })
       .addCase(fetchAllOrders.rejected, (state) => {
         state.status = 'fail';

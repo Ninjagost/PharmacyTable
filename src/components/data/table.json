@@ -8,15 +8,18 @@
     "order_items": [
       {
         "code": "string",
-        "type": "REF"
+        "type": "REF",
+        "id": "11"
       },
       {
         "code": "string",
-        "type": "REF"
+        "type": "REF",
+        "id": "12"
       },
       {
         "code": "string",
-        "type": "REF"
+        "type": "REF",
+        "id": "13"
       }
     ],
     "client": {
@@ -56,16 +59,19 @@
     },
     "order_items": [
       {
-        "code": "string",
-        "type": "REF"
+        "code": "123",
+        "type": "REF",
+        "id": "1"
       },
       {
-        "code": "string",
-        "type": "REF"
+        "code": "132",
+        "type": "REF",
+        "id": "2"
       },
       {
-        "code": "string",
-        "type": "REF"
+        "code": "14123",
+        "type": "REF",
+        "id": "3"
       }
     ],
     "client": {
@@ -81,7 +87,7 @@
       "pharmacy": 0,
       "id": 2
     },
-    "order_type": "ON",
+    "order_type": "OFF",
     "weight_type": "S",
     "copay": 0,
     "proof_type": "OS",

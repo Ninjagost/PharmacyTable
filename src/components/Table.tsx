@@ -15,6 +15,10 @@ import Columns from './helpers/Collumns';
 import datas from './data/table.json';
 import { v4 as uuidv4 } from 'uuid';
 
+// import { useAppDispatch, useAppSelector } from '../redux/hooks';
+// import { allOrdersStatus, getAllOrders } from '../redux/features/pharmacy/pharmacySlice';
+// import { fetchAllOrders } from '../redux/features/pharmacy/pharmacyThunks';
+
 export const StyledTableCell = styled(TableCell)(() => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: '#FAFBFC',
@@ -35,10 +39,19 @@ export const StyledTableRow = styled(TableRow)(() => ({
 }));
 
 const OrdersTable = () => {
+  // if there is something in backend it should work
+  // const dispatch = useAppDispatch();
+  // const orders = useAppSelector(getAllOrders);
+  // const ordersStatus = useAppSelector(allOrdersStatus);
+
   const columns = useMemo(() => Columns, []);
   const data: any = useMemo(() => datas, []);
+  // let data: any = useMemo(() => orders, []);
 
-  console.log(datas);
+  // useMemo(() => {
+  //   if (ordersStatus == 'idle') dispatch(fetchAllOrders());
+  //   else data = orders;
+  // }, [allOrdersStatus]);
 
   const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({
     columns,
